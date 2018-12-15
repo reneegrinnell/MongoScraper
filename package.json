@@ -1,0 +1,26 @@
+{
+  "name": "mongoscraper",
+  "version": "1.0.0",
+  "description": "web scraper and commenting app using Mongo and Cheerio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reneegrinnell/MongoScraper.git"
+  },
+  "author": "Renée Grinnell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reneegrinnell/MongoScraper/issues"
+  },
+  "homepage": "https://github.com/reneegrinnell/MongoScraper#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^5.4.0"
+  }
+}
