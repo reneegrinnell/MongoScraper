@@ -47,6 +47,10 @@ app.get("/api/scrape", function (req, res) {
                 .children("a")
                 .text();
 
+            // result.image = $(this)
+            //     .children("a")
+            //     .img("src");
+
             result.link = $(this)
                 .children("a")
                 .attr("href");
@@ -80,7 +84,7 @@ app.get("/articles", function(req, res) {
       });
   });
   
-  // Route for grabbing a specific Article by id, populate it with it's note
+  // Route for grabbing a specific Article by id, populate it with its note
   app.get("/articles/:id", function(req, res) {
     // Using the id passed in the id parameter, prepare a query that finds the matching one in our db...
     db.Article.findOne({ _id: req.params.id })
