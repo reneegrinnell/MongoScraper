@@ -6,12 +6,11 @@
     margin-bottom: 0px;
     border-right: 1px solid black;
     border-left: 1px solid black;
+    padding: 40px 20px 40px 20px;
 }
 
 img {
-    border-radius: 25px;
-    margin-left: 20px;
-    margin-bottom: 20px;
+    border-radius: 20px;
 
     /* Start shake animation and make it last for 1.75 seconds */
     animation: shake 1.5s; 
@@ -51,6 +50,11 @@ a {
     color: black;
 }
 
+a:hover {
+    color: black;
+    font-style: bold;
+}
+
 body {
     background-image: url("../img/background.jpg");
     background-repeat: repeat;
@@ -61,6 +65,10 @@ body {
     background-color: white;
     border-right: 1px solid black;
     border-left: 1px solid black;
+}
+
+h3 {
+    font-family: 'Sedgwick Ave Display', cursive;
 }
 
 
