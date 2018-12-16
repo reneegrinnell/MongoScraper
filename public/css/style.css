@@ -1,16 +1,22 @@
+/*///////////////////////////////////////*/
 /* HEADER */
+/*///////////////////////////////////////*/
 .jumbotron {
     background-color: mediumseagreen;
+    margin-bottom: 0px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
 }
 
 img {
     border-radius: 25px;
+    margin-left: 20px;
+    margin-bottom: 20px;
 
     /* Start shake animation and make it last for 1.75 seconds */
-    animation: shake 1.75s; 
-
+    animation: shake 1.5s; 
     /* When the animation is finished, start again */
-    animation-iteration-count: infinite; 
+    animation-iteration-count: 1; 
     }
 
     @keyframes shake {
@@ -24,14 +30,49 @@ img {
     70% { transform: translate(3px, 1px) rotate(-1deg); }
     80% { transform: translate(-1px, -1px) rotate(1deg); }
     90% { transform: translate(1px, 2px) rotate(0deg); }
-    100% { transform: translate(1px, -2px) rotate(-1deg); }
+    100% { transform: translate(1px, -1px) rotate(-1deg); }
 }
 
 .display-4 {
     font-family: 'Sedgwick Ave Display', cursive;
+    margin-left: 20px;
+    margin-bottom: 10px;
 }
 
+.lead {
+    margin-left: 20px;
+}
+
+
+/*///////////////////////////////////////*/
+/* BODY */
+/*///////////////////////////////////////*/
+a {
+    color: black;
+}
+
+body {
+    background-image: url("../img/background.jpg");
+    background-repeat: repeat;
+}
+
+#mainbody {
+    padding: 40px;
+    background-color: white;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+
+/*///////////////////////////////////////*/
 /* FOOTER */
+/*///////////////////////////////////////*/
+
 #footer {
+    background-color: mediumseagreen;
     padding: 20px 0px 20px 0px;
+    text-align: center;
+    color: black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
 }
