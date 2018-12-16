@@ -1,5 +1,5 @@
 # MongoScraper
-web scraper and commenting app using Mongo and Cheerio
+MongoScraper makes use of Mongo and Cheerio in a web scraper/article saving and commenting app for the Onion-esque punk satire site [The Hard Times](https://thehardtimes.net/).
 
 Give it a gander on [Heroku](https://mighty-sea-96742.herokuapp.com/)!
 
